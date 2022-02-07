@@ -69,6 +69,19 @@
 	"height_inches": 72,
 	"author": false,
 	"tv show": ["Opposite Sex", "Defending Jacob"]
-     }
+     },
+	
+     "Taylor":{
+	"full name": "Taylor Swift",
+	"other names": "Nils Sjöberg",
+	"wikipedia": "https://en.wikipedia.org/wiki/Taylor_Swift",
+	"born": 1989,
+	"place of birth": "West Reading, Pennsylvania",
+	"height_inches": 71,
+	"author": false,
+	"famous song": "Blank Space"
+		
+	
+	
    
 }  
