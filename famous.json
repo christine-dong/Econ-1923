@@ -215,7 +215,18 @@
     "height_inches" : 81, 
     "author" : false, 
     "basketball team" : "Los Angeles Lakers" 
-  }
+  },
+"ronaldo": {
+
+		"full name": "Christiano Ronaldo",
+		"brand name": "CR7",
+		"age": 37,
+		"birth place": "Madeira, Portugal",
+		"current club": "Manchester United F.C.",
+		"other clubs played": ["Sporting CB", "Real Madrid", "Juventus"],
+		"The best palyer in the world": true,
+		"other sports": null
+	}
   
 }
     
