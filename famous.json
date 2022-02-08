@@ -247,6 +247,17 @@
 	"The best palyer in the world": true,
 	"other sports": null
     }
+	
+	"denzel" : {
+        "full name" : "Denzel Washington",
+        "other names" : ["Alonzo Harris", "Frank Lucas", "Coach Herman Boone"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Denzel_Washington",
+        "born" : 1954,
+        "place of birth" : "Mount Vernon, New York",
+        "actor" : true,
+        "academy awards" : 2,
+        "movies" : ["Training Day", "Flight", "Man on Fire"]
+    },
     
 }
 
