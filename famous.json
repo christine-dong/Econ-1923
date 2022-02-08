@@ -255,7 +255,7 @@
         "born" : 1954,
         "place of birth" : "Mount Vernon, New York",
         "actor" : true,
-        "academy awards" : 2,
+        "emmy winner" : false,
         "movies" : ["Training Day", "Flight", "Man on Fire"]
     },
     
