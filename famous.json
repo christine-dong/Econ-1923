@@ -235,6 +235,17 @@
         "place of birth" : "Bridgeport, Connecticut",
         "grammy awards" : 7,
         "associates" : "Dead and Company",
+    },
+    
+    "ronaldo": {
+		"full name": "Christiano Ronaldo",
+		"brand name": "CR7",
+		"age": 37,
+		"birth place": "Madeira, Portugal",
+		"current club": "Manchester United F.C.",
+		"other clubs played": ["Sporting CB", "Real Madrid", "Juventus"],
+		"The best palyer in the world": true,
+		"other sports": null
     }
     
 }
