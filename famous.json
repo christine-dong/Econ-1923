@@ -82,9 +82,9 @@
         "teams": ["Chicago Bulls", "Washington Wizards"],
         "author": false,
         "tv show": null
-
+        
     }, 
-   "dua" : {
+    "dua" : {
         "name" : "Dua Lipa",
         "born" : 1995,
         "place of birth" : "London, United Kingdom",
@@ -113,18 +113,18 @@
         "author" : false,
         "tv show" : ["American Horror Story", "Scream Queens"]
     },  
-            
+
     "Adam" : {
-	"full name": "Adam Driver",
-	"other name": "Kylo Ren",
-	"wikipedia": "https://en.wikipedia.org/wiki/Adam_Driver",
-	"born": 1983,
-	"place of birth": "San Diego, California",
-	"college_attended": "Julliard",
-	"tv show": "Girls",
-	"SNL_appearance": true
-	},
-            
+        "full name": "Adam Driver",
+        "other name": "Kylo Ren",
+        "wikipedia": "https://en.wikipedia.org/wiki/Adam_Driver",
+        "born": 1983,
+        "place of birth": "San Diego, California",
+        "college_attended": "Julliard",
+        "tv show": "Girls",
+        "SNL_appearance": true
+    },
+
     "watson" : {
         "full name" : "Emma Charlotte Duerre Watson",
         "place of birth" : "Paris, France", 
@@ -134,7 +134,7 @@
         "most recent film" : "Little Women",
         "current tv show" : null
     },
-            
+
     "Kaka" : {
         "Full name" : "Ricardo Dos Santos",
         "Other name" : "Kaka",
@@ -155,7 +155,7 @@
         "place of birth": "Westwood, New Jersey",
         "tv show": "The Sopranos",
         "emmy winner": true
-     },
+    },
 
     "joe" : {
         "full name" : "Joseph Burrow",
@@ -166,58 +166,78 @@
         "height_inches" : 76,
         "heisman trophy winner" : true,
         "nfl team" : "Cincinnati Bengals"
-    } ,     
-
-   "taylor": {
-	"full name": "Taylor Alison Swift",
-	"other names": ["The Music Industry", "Ms.Swift"],
-	"wikipedia": "https://en.wikipedia.org/wiki/Taylor_Swift",
-	"born": 1989,
-	"place of birth": "West Reading, Pennsylvania",
-	"height_inches": 71,
-	"grammys won": 11,
-	"song writer": true,
-	"albums": ["Taylor Swift", "Fearless (Taylor's Version)", "Speak Now", "Red (Taylor's Version)", "1989", "Reputation", "Lover", "Folklore", "Evermore"],
-	"tv show": "New Girl",
-	"author": null
-   } ,
-	
- "Daniel" : {
-	"full name": "Daniel Radcliffe",
-	"other name": "Harry Potter",
-	"wikipedia": "https://en.wikipedia.org/wiki/Daniel_Radcliffe",
-	"born": 1989,
-	"place of birth": "London, UK",
-	"height_inches": 65,
-	"tv show": null,
-	"SNL_appearance": true
-	}
-
-   "Donald": {
-	"full name": "Donald McKinley Glover Jr",
-	"other names": ["Childish Gambino", "Troy Barnes"],
-	"wikipedia" : "https://en.wikipedia.org/wiki/Donald_Glover",
-	"born" : 1983,
-	"place of birth" : "Edwards, California",
-	"musician" : true,
-	"grammys" : 5,
-	"albums": ["Camp", "Because the Internet", "Awaken, My Love!", "3.15.20"],
-	"actor" : true,
-	"comedian" : true
-   },
-  
-	"lebron" : { 
-    "full name" : "Lebron James", 
-    "other names" : ["Bron", "King James"],
-    "wikipedia" : "https://en.wikipedia.org/wiki/LeBron_James",
-    "born" : 1984, 
-    "place of birth" : "Akron, Ohio", 
-    "height_inches" : 81, 
-    "author" : false, 
-    "basketball team" : "Los Angeles Lakers" 
-  },
-"ronaldo": {
-
+        } ,     
+        
+    "taylor": {
+        "full name": "Taylor Alison Swift",
+        "other names": ["The Music Industry", "Ms.Swift"],
+        "wikipedia": "https://en.wikipedia.org/wiki/Taylor_Swift",
+        "born": 1989,
+        "place of birth": "West Reading, Pennsylvania",
+        "height_inches": 71,
+        "grammys won": 11,
+        "song writer": true,
+        "albums": ["Taylor Swift", "Fearless (Taylor's Version)", "Speak Now", "Red (Taylor's Version)", "1989", "Reputation", "Lover", "Folklore", "Evermore"],
+        "tv show": "New Girl",
+        "author": null
+    },
+    
+    "sidney" : {
+        "full name" : "Sidney Crosby",
+        "born" : 1987,
+        "place of birth" : "Halifax, Canada",
+        "sport" : "ice hockey",
+        "team" : "Pittsburgh Penguins",
+        "Stanley Cup Winner" : true,
+        "height_inches" : 71
+    },
+    
+    "Daniel" : {
+        "full name": "Daniel Radcliffe",
+        "other name": "Harry Potter",
+        "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Radcliffe",
+        "born": 1989,
+        "place of birth": "London, UK",
+        "height_inches": 65,
+        "tv show": null,
+        "SNL_appearance": true
+    },
+    
+    "Donald": {
+        "full name": "Donald McKinley Glover Jr",
+        "other names": ["Childish Gambino", "Troy Barnes"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Donald_Glover",
+        "born" : 1983,
+        "place of birth" : "Edwards, California",
+        "musician" : true,
+        "grammys" : 5,
+        "albums": ["Camp", "Because the Internet", "Awaken, My Love!", "3.15.20"],
+        "actor" : true,
+        "comedian" : true
+    },
+    
+    "lebron" : { 
+        "full name" : "Lebron James", 
+        "other names" : ["Bron", "King James"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/LeBron_James",
+        "born" : 1984, 
+        "place of birth" : "Akron, Ohio", 
+        "height_inches" : 81, 
+        "author" : false, 
+        "basketball team" : "Los Angeles Lakers" 
+    },
+    
+    "john" : {
+        "full name" : "John Mayer",
+        "musician" : true,
+        "focus" : ["Vocals", "Guitar"],
+        "age_years" : 44,
+        "place of birth" : "Bridgeport, Connecticut",
+        "grammy awards" : 7,
+        "associates" : "Dead and Company",
+    },
+    
+    "ronaldo": {
 		"full name": "Christiano Ronaldo",
 		"brand name": "CR7",
 		"age": 37,
@@ -226,7 +246,8 @@
 		"other clubs played": ["Sporting CB", "Real Madrid", "Juventus"],
 		"The best palyer in the world": true,
 		"other sports": null
-	}
-  
-}
+    }
     
+}
+
+        
