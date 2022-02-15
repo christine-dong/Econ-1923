@@ -257,7 +257,7 @@
 	"actor" : true,
 	"emmy winner" : false,
 	"movies" : ["Training Day", "Flight", "Man on Fire"]
-    }
+    },
     
    "Suárez" ：{	
 	"full name" : "Luis Alberto Suárez Díaz",
@@ -268,7 +268,7 @@
 	"place of birth" : "Salto, Uruguay",
 	"current club" : "Atlético Madrid",
 	"number" : "9"
-	  },
+	  }
 }
 
         
