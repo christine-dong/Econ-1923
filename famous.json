@@ -259,7 +259,7 @@
 	"movies" : ["Training Day", "Flight", "Man on Fire"]
     },
     
-   "Suárez" ：{	
+   "Suárez": {	
 	"full name" : "Luis Alberto Suárez Díaz",
 	"nicknames" : "el pistolero",
 	"wikipedia" : "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez",
@@ -268,7 +268,7 @@
 	"place of birth" : "Salto, Uruguay",
 	"current club" : "Atlético Madrid",
 	"number" : "9"
-	  }
+    }
 }
 
         
