@@ -8,13 +8,16 @@ Watch this [video](https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=
 
 - [x] Jupyter notebooks
 - [x] REST_APIs, Get requests
+- [x] JSON
 - [x] Environment variables
 - [X] Github basics
-- [X] Python/R skills
+- [X] DataFrames
+
+<img src='https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white'> <img src='https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white'>
 
 ## Projects:
 - [ ] CPI
 - [ ] Product differentiation
 - [ ] Demand estimation
 
-<img src='https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg'>
+<img src='https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg'> 
