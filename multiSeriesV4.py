@@ -41,8 +41,8 @@ def multiSeriesV4(varList,myKey):
             print('Series ',varList[item],' exists with ',l,' observations')
             d = json_data['Results']['series'][item]['data']
             current_df = pd.DataFrame(data=d)
-            current_df = current_df[["year","period","value"]]
-            current_df = current_df.rename(columns = {"value":basket[item]}).astype({basket[item]: 'float64'})
+            current_df = current_df[['year','period','value']].astype({'value': 'float64'})
+            current_df = current_df.rename(columns = {'value':varList[item]})
             new_df = new_df.merge(current_df, on = ['year','period'],how='outer')
     
     return new_df
