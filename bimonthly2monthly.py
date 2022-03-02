@@ -1,3 +1,5 @@
+# You can coppy this function to your notebook:
+
 def bimonthly2monthly(df, ser):
     # This function take a column named varName in the data frame df and change it from bi monthly to monthly by interpolating the data
     # NOTE: This function assumes that df is sorted from the latest month (position zero) to the oldest month
@@ -24,10 +26,12 @@ def bimonthly2monthly(df, ser):
         
     return df
   
-  # Usage:
+  # Usage (after you created your dataframe using multiSeriesV4() ):
+
   # First, sort the dataframe using:  
   #              df.sort_values(by=['year','period'],inplace=True,ascending=False)
   # (replace df with the name you used for your data frame)
+
   # Second, use this function:
   #              df = bimonthly2monthly(df,'CUURS12BSAR')
   # (replace df with the name you used for your data frame and replace 'CUURS12BSAR' with a series name you used)
