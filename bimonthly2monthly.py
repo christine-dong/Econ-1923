@@ -16,14 +16,14 @@ def bimonthly2monthly(myData, ser):
         if pd.isna(myData[ser].iat[i]): #the value in place i is NaN
             myData[ser].iat[i] = math.sqrt(myData[ser].iat[i-1]*myData[ser].iat[i+1]) #replace NaN with a geometric avg of i-1 and i+1
 
-    # after the above stage all the middle observations are full. Now we can treat the first and last one
+        # after the above stage all the middle observations are full. Now we can treat the first and last one
 
-    if pd.isna(myData[ser].iat[0]): #the value in the first place is NaN
-        myData[ser].iat[0] = myData[ser].iat[1]*(myData[ser].iat[1]/myData[ser].iat[2]) #assume the same growth rate from 2 to 1 to be from 1 to 0
+        if pd.isna(myData[ser].iat[0]): #the value in the first place is NaN
+            myData[ser].iat[0] = myData[ser].iat[1]*(myData[ser].iat[1]/myData[ser].iat[2]) #assume the same growth rate from 2 to 1 to be from 1 to 0
 
-    if pd.isna(myData[ser].iat[n-1]): #the value in the last place is NaN
-        myData[ser].iat[n-1] = myData[ser].iat[n-2]*(myData[ser].iat[n-2]/myData[ser].iat[n-3]) #assume the same growth rate from n-2 to n-3 to be n-2 to n-1
-        
+        if pd.isna(myData[ser].iat[n-1]): #the value in the last place is NaN
+            myData[ser].iat[n-1] = myData[ser].iat[n-2]*(myData[ser].iat[n-2]/myData[ser].iat[n-3]) #assume the same growth rate from n-2 to n-3 to be n-2 to n-1
+
     return myData
   
   # Usage (after you created your dataframe using multiSeriesV4() ):
