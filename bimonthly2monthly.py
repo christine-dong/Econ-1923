@@ -1,9 +1,9 @@
 # You can coppy this function to your notebook:
 
-def bimonthly2monthly(df, ser):
-    # This function take a column named varName in the data frame df and change it from bi monthly to monthly by interpolating the data
-    # NOTE: This function assumes that df is sorted from the latest month (position zero) to the oldest month
-    #  before using this function, it will be safe to run the command:  df.sort_values(by=['year','period'],inplace=True,ascending=False)
+def bimonthly2monthly(myData, ser):
+    # This function take a column named ser in the data frame myData and change it from bi monthly to monthly by interpolating the data
+    # NOTE: This function assumes that myData is sorted from the latest month (position zero) to the oldest month
+    #  before using this function, it will be safe to run the command:  myData.sort_values(by=['year','period'],inplace=True,ascending=False)
     
     n = len (myData[ser]) # number of rows
 
@@ -18,13 +18,13 @@ def bimonthly2monthly(df, ser):
 
     # after the above stage all the middle observations are full. Now we can treat the first and last one
 
-        if pd.isna(myData[ser].iat[0]): #the value in the first place is NaN
-            myData[ser].iat[0] = myData[ser].iat[1]*(myData[ser].iat[1]/myData[ser].iat[2]) #assume the same growth rate from 2 to 1 to be from 1 to 0
+    if pd.isna(myData[ser].iat[0]): #the value in the first place is NaN
+        myData[ser].iat[0] = myData[ser].iat[1]*(myData[ser].iat[1]/myData[ser].iat[2]) #assume the same growth rate from 2 to 1 to be from 1 to 0
 
     if pd.isna(myData[ser].iat[n-1]): #the value in the last place is NaN
-        myData[ser].iat[n-1] = myData[ser].iat[n-2]*(myData[ser].iat[n-2]/myData[ser].iat[n-3]) #assume the same growth rate from
+        myData[ser].iat[n-1] = myData[ser].iat[n-2]*(myData[ser].iat[n-2]/myData[ser].iat[n-3]) #assume the same growth rate from n-2 to n-3 to be n-2 to n-1
         
-    return df
+    return myData
   
   # Usage (after you created your dataframe using multiSeriesV4() ):
 
